@@ -33,7 +33,7 @@ public class day2 {
             for(int i = 0;i<beta.size(); i++){
                 //is descending
                 int last = 0; //FINNISH, REWRITE
-                if(beta.get(i)>beta.get(i+1) || beta.get(i<beta)) {
+                if(beta.get(i)>beta.get(i+1) || beta.get(i)<beta.size()) {
                     if(Math.abs(beta.get(i)-beta.get(i+1)) >=1){
                         if (Math.abs(beta.get(i)-beta.get(i+1))<=3){
                             answear++;
